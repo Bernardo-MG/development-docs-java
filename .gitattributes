@@ -1,0 +1,17 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Known text files
+*.css           text diff=css
+*.md            text
+*.sh            text
+*.xml           text
+*.yml           text
+*.txt           text
+
+# Known binary files
+*.gif           binary
+*.ico           binary
+*.jpg           binary
+*.jpeg          binary
+*.png           binary
