@@ -18,7 +18,6 @@
 * [Enums](general/enums.md)
 * [Serialization](general/serialization.md)
 * [Manifest](general/manifest.md)
-* [Tests](general/tests.md)
 * [Java Beans](general/java-beans.md)
 * [Immutable and Unmodifiable](general/immutable-and-unmodifiable.md)
 * [Regular Expression](general/regular-expression.md)
@@ -79,4 +78,17 @@
 * [Lifecycle](jpa/lifecycle.md)
 * [JPQL](jpa/jpql.md)
 * [Criteria API](jpa/criteria-api.md)
+
+## Utilities Classes
+
+* [Libraries](utilities-classes/libraries.md)
+* [Constants Class](utilities-classes/constants-class.md)
+
+## Preconditions
+
+* [Guava](preconditions/guava.md)
+
+## Testing
+
+* [Libraries](testing/libraries.md)
 
