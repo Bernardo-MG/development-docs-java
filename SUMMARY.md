@@ -91,4 +91,20 @@
 ## Testing
 
 * [Libraries](testing/libraries.md)
+* [Junit](testing/junit/README.md)
+  * [Setting Up Tests](testing/junit/setting-up-tests.md)
+  * [Disable Tests](testing/junit/disable-tests.md)
+  * [Test Lifecycle](testing/junit/test-lifecycle.md)
+  * [Testing Exceptions](testing/junit/testing-exceptions.md)
+  * [Dependencies with Spring](testing/junit/dependencies-with-spring.md)
+* [Mockito](testing/mockito/README.md)
+  * [Mocking](testing/mockito/mocking.md)
+  * [Verify Calls](testing/mockito/verify-calls.md)
+  * [Capture Arguments](testing/mockito/capture-arguments.md)
+
+## LOGGING IN JAVA
+
+* [Log4j](logging-in-java/log4j.md)
+* [SL4J](logging-in-java/sl4j.md)
+* [JPA](logging-in-java/jpa.md)
 
