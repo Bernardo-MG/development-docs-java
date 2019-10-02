@@ -119,6 +119,7 @@
 * [General](spring/general.md)
 * [SpEL](spring/spel.md)
 * [Files](spring/files.md)
+* [Sending Mails](spring/sending-mails.md)
 
 ## Spring Configuration
 
@@ -151,6 +152,28 @@
   * [Common Persistence Beans](spring-data/components-and-configuration/common-persistence-beans.md)
   * [Datasource](spring-data/components-and-configuration/datasource.md)
   * [Persistence Providers](spring-data/components-and-configuration/persistence-providers.md)
+
+## Spring MVC
+
+* [General](spring-mvc/general.md)
+* [Setting Up a Web Application](spring-mvc/setting-up-a-web-application.md)
+* [Serving Resources](spring-mvc/serving-resources.md)
+* [Securing URLS](spring-mvc/securing-urls.md)
+* [Controllers](spring-mvc/controllers/README.md)
+  * [Mapping and Choosing Controller Methods](spring-mvc/controllers/mapping-and-choosing-controller-methods.md)
+  * [Mapping Controller Variables](spring-mvc/controllers/mapping-controller-variables.md)
+  * [Request Argument Validation](spring-mvc/controllers/request-argument-validation.md)
+  * [Controller Advices](spring-mvc/controllers/controller-advices.md)
+* [Error Handling](spring-mvc/error-handling.md)
+* [Binding Configuration](spring-mvc/binding-configuration.md)
+* [Model Attributes](spring-mvc/model-attributes.md)
+* [View Resolvers](spring-mvc/view-resolvers.md)
+* [Loading Pageable Automatically](spring-mvc/loading-pageable-automatically.md)
+
+## Spring Security
+
+* [Examples](spring-security/examples.md)
+* [Setting Up](spring-security/setting-up.md)
 
 ## Spring AOP
 
