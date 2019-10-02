@@ -109,6 +109,14 @@
 * [JPA](logging-in-java/jpa.md)
 * [Hikari](logging-in-java/hikari.md)
 
+## Jackson
+
+* [General](jackson/general.md)
+* [Deserialize](jackson/deserialize.md)
+* [Object Hierarchy](jackson/object-hierarchy.md)
+* [Ignoring Data](jackson/ignoring-data.md)
+* [Mixin](jackson/mixin.md)
+
 ## HIBERNATE
 
 * [Logging](hibernate/logging.md)
@@ -200,4 +208,8 @@
 
 * [Conditional Tests](testing-spring/conditional-tests.md)
 * [Initializing DB](testing-spring/initializing-db.md)
+
+## JMeter
+
+* [General](jmeter/general.md)
 
