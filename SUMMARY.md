@@ -54,6 +54,14 @@
   * [Other Operations](functional/streams/other-operations.md)
   * [Data Structure Transformations](functional/streams/data-structure-transformations.md)
 
+## Ant
+
+* [Scripts](ant/scripts.md)
+* [Examples](ant/examples/README.md)
+  * [Replace Version](ant/examples/replace-version.md)
+  * [Merge Files](ant/examples/merge-files.md)
+  * [Execute Command](ant/examples/execute-command.md)
+
 ## Internationalization
 
 * [General](internationalization/general.md)
