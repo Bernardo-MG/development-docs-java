@@ -169,6 +169,19 @@
 * [Model Attributes](spring-mvc/model-attributes.md)
 * [View Resolvers](spring-mvc/view-resolvers.md)
 * [Loading Pageable Automatically](spring-mvc/loading-pageable-automatically.md)
+* [Testing](spring-mvc/testing/README.md)
+  * [Request Path Testing](spring-mvc/testing/request-path-testing.md)
+  * [Testing JSON](spring-mvc/testing/testing-json.md)
+  * [Argument Resolvers](spring-mvc/testing/argument-resolvers.md)
+
+## Spring WS
+
+* [Examples](spring-ws/examples.md)
+
+## Spring Boot
+
+* [General](spring-boot/general.md)
+* [Setting Up](spring-boot/setting-up.md)
 
 ## Spring Security
 
@@ -179,4 +192,9 @@
 
 * [Configuration](spring-aop/configuration.md)
 * [Logging Aspect Example](spring-aop/logging-aspect-example.md)
+
+## Testing Spring
+
+* [Conditional Tests](testing-spring/conditional-tests.md)
+* [Initializing DB](testing-spring/initializing-db.md)
 
