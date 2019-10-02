@@ -108,3 +108,8 @@
 * [SL4J](logging-in-java/sl4j.md)
 * [JPA](logging-in-java/jpa.md)
 
+## HIBERNATE
+
+* [Logging](hibernate/logging.md)
+* [More Information](hibernate/more-information.md)
+
