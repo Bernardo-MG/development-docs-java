@@ -117,6 +117,7 @@
 ## Spring
 
 * [General](spring/general.md)
+* [SpEL](spring/spel.md)
 
 ## Spring Data
 
