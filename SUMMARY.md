@@ -141,7 +141,8 @@
 
 ## Spring Data
 
-* [Transactional](spring-data/transactional.md)
+* [Transactional](spring-data/transactional/README.md)
+  * [Transaction Aspect](spring-data/transactional/transaction-aspect.md)
 * [JPA Repositories](spring-data/jpa-repositories/README.md)
   * [Custom Repositories](spring-data/jpa-repositories/custom-repositories.md)
   * [Configuration](spring-data/jpa-repositories/configuration.md)
