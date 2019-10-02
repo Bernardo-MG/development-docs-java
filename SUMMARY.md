@@ -118,11 +118,16 @@
 
 * [General](spring/general.md)
 * [SpEL](spring/spel.md)
+* [Files](spring/files.md)
 
 ## Spring Data
 
 * [Transactional](spring-data/transactional.md)
-* [JPA Repositories](spring-data/jpa-repositories.md)
+* [JPA Repositories](spring-data/jpa-repositories/README.md)
+  * [Custom Repositories](spring-data/jpa-repositories/custom-repositories.md)
+  * [Configuration](spring-data/jpa-repositories/configuration.md)
+  * [Queries](spring-data/jpa-repositories/queries.md)
+  * [Sorting and Paging](spring-data/jpa-repositories/sorting-and-paging.md)
 * [Components and Configuration](spring-data/components-and-configuration/README.md)
   * [Common Persistence Beans](spring-data/components-and-configuration/common-persistence-beans.md)
   * [Datasource](spring-data/components-and-configuration/datasource.md)
