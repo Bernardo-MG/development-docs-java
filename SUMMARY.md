@@ -141,10 +141,6 @@
 
 ## Spring Data
 
-* [Transactional](spring-data/transactional/README.md)
-  * [Configuration](spring-data/transactional/configuration.md)
-  * [Transaction Aspect](spring-data/transactional/transaction-aspect.md)
-  * [Transactional Test](spring-data/transactional/transactional-test.md)
 * [JPA Repositories](spring-data/jpa-repositories/README.md)
   * [Custom Repositories](spring-data/jpa-repositories/custom-repositories.md)
   * [Configuration](spring-data/jpa-repositories/configuration.md)
@@ -155,6 +151,10 @@
   * [Common Persistence Beans](spring-data/components-and-configuration/common-persistence-beans.md)
   * [Datasource](spring-data/components-and-configuration/datasource.md)
   * [Persistence Providers](spring-data/components-and-configuration/persistence-providers.md)
+* [Transactional](spring-data/transactional/README.md)
+  * [Configuration](spring-data/transactional/configuration.md)
+  * [Transaction Aspect](spring-data/transactional/transaction-aspect.md)
+  * [Transactional Test](spring-data/transactional/transactional-test.md)
 
 ## Spring MVC
 
