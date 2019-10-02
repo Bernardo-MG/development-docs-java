@@ -17,7 +17,6 @@ public interface EntityCustomRepository  {
 
 }
 
-
 public class EntityCustomRepositoryImpl implements EntityCustomRepository   {
 
    public final Iterable<Entity> findByCustomQuery() {

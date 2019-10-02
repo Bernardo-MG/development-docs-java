@@ -120,6 +120,24 @@
 * [SpEL](spring/spel.md)
 * [Files](spring/files.md)
 
+## Spring Configuration
+
+* [Profiles](spring-configuration/profiles.md)
+* [Conditional Configuration](spring-configuration/conditional-configuration.md)
+* [Properties Object](spring-configuration/properties-object.md)
+
+## Spring Dependence Injection
+
+* [Injections](spring-dependence-injection/injections.md)
+* [Injecting Values](spring-dependence-injection/injecting-values.md)
+* [Injecting Multiple Instances](spring-dependence-injection/injecting-multiple-instances.md)
+* [Interdependence](spring-dependence-injection/interdependence.md)
+
+## Spring Beans
+
+* [Initialization and Destruction](spring-beans/initialization-and-destruction.md)
+* [Extending Initialization](spring-beans/extending-initialization.md)
+
 ## Spring Data
 
 * [Transactional](spring-data/transactional.md)
@@ -128,6 +146,7 @@
   * [Configuration](spring-data/jpa-repositories/configuration.md)
   * [Queries](spring-data/jpa-repositories/queries.md)
   * [Sorting and Paging](spring-data/jpa-repositories/sorting-and-paging.md)
+  * [Example API](spring-data/jpa-repositories/example-api.md)
 * [Components and Configuration](spring-data/components-and-configuration/README.md)
   * [Common Persistence Beans](spring-data/components-and-configuration/common-persistence-beans.md)
   * [Datasource](spring-data/components-and-configuration/datasource.md)
