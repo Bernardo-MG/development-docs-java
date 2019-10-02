@@ -143,6 +143,7 @@
 
 * [Transactional](spring-data/transactional/README.md)
   * [Transaction Aspect](spring-data/transactional/transaction-aspect.md)
+  * [Transactional Test](spring-data/transactional/transactional-test.md)
 * [JPA Repositories](spring-data/jpa-repositories/README.md)
   * [Custom Repositories](spring-data/jpa-repositories/custom-repositories.md)
   * [Configuration](spring-data/jpa-repositories/configuration.md)
