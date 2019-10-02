@@ -102,14 +102,33 @@
   * [Verify Calls](testing/mockito/verify-calls.md)
   * [Capture Arguments](testing/mockito/capture-arguments.md)
 
-## LOGGING IN JAVA
+## LOGGING <a id="logging-in-java"></a>
 
 * [Log4j](logging-in-java/log4j.md)
 * [SL4J](logging-in-java/sl4j.md)
 * [JPA](logging-in-java/jpa.md)
+* [Hikari](logging-in-java/hikari.md)
 
 ## HIBERNATE
 
 * [Logging](hibernate/logging.md)
 * [More Information](hibernate/more-information.md)
+
+## Spring
+
+* [General](spring/general.md)
+
+## Spring Data
+
+* [Transactional](spring-data/transactional.md)
+* [JPA Repositories](spring-data/jpa-repositories.md)
+* [Components and Configuration](spring-data/components-and-configuration/README.md)
+  * [Common Persistence Beans](spring-data/components-and-configuration/common-persistence-beans.md)
+  * [Datasource](spring-data/components-and-configuration/datasource.md)
+  * [Persistence Providers](spring-data/components-and-configuration/persistence-providers.md)
+
+## Spring AOP
+
+* [Configuration](spring-aop/configuration.md)
+* [Logging Aspect Example](spring-aop/logging-aspect-example.md)
 
