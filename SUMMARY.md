@@ -210,6 +210,7 @@
   * [Example API](spring-data/jpa-repositories/example-api.md)
 * [Transactional](spring-data/transactional/README.md)
   * [Configuration](spring-data/transactional/configuration.md)
+  * [Annotation](spring-data/transactional/annotation.md)
   * [Transaction Aspect](spring-data/transactional/transaction-aspect.md)
   * [Transactional Test](spring-data/transactional/transactional-test.md)
 
