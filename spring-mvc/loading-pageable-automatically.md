@@ -1,4 +1,4 @@
-# Loading Pageable Automatically
+# Resolving Sort and Pageable Arguments
 
 By using an argument resolvers pagination data can be generated from a request:
 

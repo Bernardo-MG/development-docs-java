@@ -228,7 +228,7 @@
 * [Binding Configuration](spring-mvc/binding-configuration.md)
 * [Model Attributes](spring-mvc/model-attributes.md)
 * [View Resolvers](spring-mvc/view-resolvers.md)
-* [Loading Pageable Automatically](spring-mvc/loading-pageable-automatically.md)
+* [Resolving Sort and Pageable Arguments](spring-mvc/loading-pageable-automatically.md)
 * [Testing](spring-mvc/testing/README.md)
   * [Request Path Testing](spring-mvc/testing/request-path-testing.md)
   * [Testing JSON](spring-mvc/testing/testing-json.md)

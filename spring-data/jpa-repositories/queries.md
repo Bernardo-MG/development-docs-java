@@ -34,6 +34,17 @@ To find out automatically the received entity name \(useful when extending the e
 public Iterable<Entity> findByNameJpql(@Param("name") final String name);
 ```
 
+## Query by Example
+
+```java
+Example<Employee> example;
+Iterable<Employee> employees;
+
+example = Example.of(emp);
+
+employees = repository.findAll(example);
+```
+
 ## More Information
 
 * [Query Methods](https://docs.spring.io/spring-data/jpa/docs/2.2.0.RELEASE/reference/html/#repositories.query-methods)
