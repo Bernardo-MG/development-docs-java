@@ -199,16 +199,15 @@
 
 ## Spring Data
 
-* [JPA Repositories](spring-data/jpa-repositories/README.md)
-  * [Custom Repositories](spring-data/jpa-repositories/custom-repositories.md)
-  * [Configuration](spring-data/jpa-repositories/configuration.md)
-  * [Queries](spring-data/jpa-repositories/queries.md)
-  * [Sorting and Paging](spring-data/jpa-repositories/sorting-and-paging.md)
-  * [Example API](spring-data/jpa-repositories/example-api.md)
-* [Components and Configuration](spring-data/components-and-configuration/README.md)
+* [Configuration](spring-data/components-and-configuration/README.md)
   * [Common Persistence Beans](spring-data/components-and-configuration/common-persistence-beans.md)
   * [Datasource](spring-data/components-and-configuration/datasource.md)
   * [Persistence Providers](spring-data/components-and-configuration/persistence-providers.md)
+* [JPA Repositories](spring-data/jpa-repositories/README.md)
+  * [Custom Repositories](spring-data/jpa-repositories/custom-repositories.md)
+  * [Queries](spring-data/jpa-repositories/queries.md)
+  * [Sorting and Paging](spring-data/jpa-repositories/sorting-and-paging.md)
+  * [Example API](spring-data/jpa-repositories/example-api.md)
 * [Transactional](spring-data/transactional/README.md)
   * [Configuration](spring-data/transactional/configuration.md)
   * [Transaction Aspect](spring-data/transactional/transaction-aspect.md)
