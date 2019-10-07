@@ -2,8 +2,6 @@
 
 ## Aspect
 
-
-
 ```java
 @Aspect
 public class CustomAspect
