@@ -268,3 +268,21 @@
 * [More Information](neo4j/more-information.md)
 * [Cypher](neo4j/cypher.md)
 
+## JQAssistant
+
+* [More Information](jqassistant/more-information.md)
+* [Maven Plugin](jqassistant/maven-plugin/README.md)
+  * [Git](jqassistant/maven-plugin/git.md)
+  * [Maven Dependencies](jqassistant/maven-plugin/maven-dependencies.md)
+* [Queries](jqassistant/queries/README.md)
+  * [Structure](jqassistant/queries/structure.md)
+  * [Pruning](jqassistant/queries/pruning.md)
+  * [Maven](jqassistant/queries/maven.md)
+  * [Controller](jqassistant/queries/controller.md)
+  * [Detecting Problems](jqassistant/queries/detecting-problems.md)
+* [Concepts](jqassistant/concepts.md)
+* [Constraints](jqassistant/constraints.md)
+* [Groups](jqassistant/groups.md)
+* [Rules](jqassistant/rules/README.md)
+  * [Custom Rules](jqassistant/rules/custom-rules.md)
+
