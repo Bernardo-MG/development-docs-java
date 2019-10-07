@@ -203,7 +203,7 @@
   * [Common Persistence Beans](spring-data/components-and-configuration/common-persistence-beans.md)
   * [Datasource](spring-data/components-and-configuration/datasource.md)
   * [Persistence Providers](spring-data/components-and-configuration/persistence-providers.md)
-* [JPA Repositories](spring-data/jpa-repositories/README.md)
+* [Repositories](spring-data/jpa-repositories/README.md)
   * [Custom Repositories](spring-data/jpa-repositories/custom-repositories.md)
   * [Queries](spring-data/jpa-repositories/queries.md)
   * [Sorting and Paging](spring-data/jpa-repositories/sorting-and-paging.md)

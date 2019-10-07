@@ -7,16 +7,20 @@ Repositores can be extended with custom code. This requires the following classe
 * Custom repository implementation
 
 ```java
-public interface EntityRepository extends JpaRepository<Entity, EntityKey> extends EntityCustomRepository {
-
-}
-
 public interface EntityCustomRepository  {
 
    public Iterable<Entity> findByCustomQuery();
 
 }
+```
 
+```java
+public interface EntityRepository extends JpaRepository<Entity, EntityKey> extends EntityCustomRepository {
+
+}
+```
+
+```java
 public class EntityCustomRepositoryImpl implements EntityCustomRepository   {
 
    public final Iterable<Entity> findByCustomQuery() {

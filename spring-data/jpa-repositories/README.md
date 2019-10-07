@@ -1,4 +1,4 @@
-# JPA Repositories
+# Repositories
 
 Spring offers a Repository interface for implementing the repository pattern.
 
