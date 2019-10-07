@@ -1,5 +1,19 @@
 # Configuration
 
+## Aspect
+
+
+
+```java
+@Aspect
+public class CustomAspect
+{
+
+   // Code
+
+}
+```
+
 ## XML
 
 ```markup
@@ -16,7 +30,7 @@
    <!-- Activates aspects -->
    <aop:aspectj-autoproxy />
 
-   <!-- Scans for services -->
+   <!-- Scans for aspects -->
    <context:component-scan base-package="com.bernardomg.example.test.**.aspect" />
 
 </beans>
