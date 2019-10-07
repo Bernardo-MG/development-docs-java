@@ -1,10 +1,10 @@
 # Queries
 
-## Custom Queries
+## Query Methods
 
-Spring can generate queries from the interface methods.
+Any implementation of Spring's Repository can define custom queries through method names.
 
-This will create a query for fetching all the entities with a specific name:
+For example, this will fetch all the entity with a specific name:
 
 ```java
 public interface EntityRepository extends JpaRepository<Entity, EntityKey> {
@@ -14,7 +14,7 @@ public interface EntityRepository extends JpaRepository<Entity, EntityKey> {
 }
 ```
 
-## JPQL Queries
+## JPQL
 
 It is possible to define the query which a method will use:
 
@@ -33,4 +33,8 @@ To find out automatically the received entity name \(useful when extending the e
 @Query("SELECT e FROM #{#entityName} e WHERE e.name = :name")
 public Iterable<Entity> findByNameJpql(@Param("name") final String name);
 ```
+
+## More Information
+
+* [Query Methods](https://docs.spring.io/spring-data/jpa/docs/2.2.0.RELEASE/reference/html/#repositories.query-methods)
 
