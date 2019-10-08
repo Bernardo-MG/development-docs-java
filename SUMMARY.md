@@ -129,7 +129,8 @@
 
 * [Libraries](utilities-classes/libraries.md)
 * [Constants Class](utilities-classes/constants-class.md)
-* [Apache Commons](utilities-classes/apache-commons.md)
+* [Apache Commons](utilities-classes/apache-commons/README.md)
+  * [Strings](utilities-classes/apache-commons/strings.md)
 * [Guava](utilities-classes/guava/README.md)
   * [Preconditions](utilities-classes/guava/preconditions.md)
 
