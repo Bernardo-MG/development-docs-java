@@ -54,6 +54,31 @@
   * [Other Operations](functional/streams/other-operations.md)
   * [Data Structure Transformations](functional/streams/data-structure-transformations.md)
 
+## Internationalization
+
+* [General](internationalization/general.md)
+* [Locale](internationalization/locale.md)
+* [Resource Bundle](internationalization/resource-bundle.md)
+* [Formatting](internationalization/formatting.md)
+
+## Beans
+
+* [Hashcode, equals and toString](beans/hashcode-equals-and-tostring.md)
+
+## Java Bean Validation
+
+* [Specification](java-bean-validation/specification.md)
+* [Annotations](java-bean-validation/annotations.md)
+* [Validator](java-bean-validation/validator.md)
+
+## JPA
+
+* [General](jpa/general.md)
+* [JPA Entities](jpa/jpa-entities.md)
+* [Lifecycle](jpa/lifecycle.md)
+* [JPQL](jpa/jpql.md)
+* [Criteria API](jpa/criteria-api.md)
+
 ## Ant
 
 * [Scripts](ant/scripts.md)
@@ -100,39 +125,13 @@
 * [Continuous Integration](maven/continuous-integration.md)
 * [Ant](maven/ant.md)
 
-## Internationalization
-
-* [General](internationalization/general.md)
-* [Locale](internationalization/locale.md)
-* [Resource Bundle](internationalization/resource-bundle.md)
-* [Formatting](internationalization/formatting.md)
-
-## Beans
-
-* [Hashcode, equals and toString](beans/hashcode-equals-and-tostring.md)
-
-## Java Bean Validation
-
-* [Specification](java-bean-validation/specification.md)
-* [Annotations](java-bean-validation/annotations.md)
-* [Validator](java-bean-validation/validator.md)
-
-## JPA
-
-* [General](jpa/general.md)
-* [JPA Entities](jpa/jpa-entities.md)
-* [Lifecycle](jpa/lifecycle.md)
-* [JPQL](jpa/jpql.md)
-* [Criteria API](jpa/criteria-api.md)
-
 ## Utilities Classes
 
 * [Libraries](utilities-classes/libraries.md)
 * [Constants Class](utilities-classes/constants-class.md)
-
-## Preconditions
-
-* [Guava](preconditions/guava.md)
+* [Apache Commons](utilities-classes/apache-commons.md)
+* [Guava](utilities-classes/guava/README.md)
+  * [Preconditions](utilities-classes/guava/preconditions.md)
 
 ## Testing
 
