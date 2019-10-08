@@ -286,3 +286,7 @@
 * [Rules](jqassistant/rules/README.md)
   * [Custom Rules](jqassistant/rules/custom-rules.md)
 
+## AspectJ
+
+* [Wrapping Method](aspectj/wrapping-method.md)
+
