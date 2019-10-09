@@ -6,30 +6,31 @@
 
 * [Compiling and running](general/compiling-and-running.md)
 * [Code Style](general/code-style.md)
-* [Comments](general/comments.md)
-* [Javadoc](general/javadoc.md)
-* [Variables](general/variables.md)
-* [Primitives](general/primitives.md)
-* [Arrays](general/arrays.md)
 * [Operators](general/operators.md)
 * [Control Flow](general/control-flow.md)
 * [Inheritance](general/inheritance.md)
-* [Generics](general/generics.md)
 * [Enums](general/enums.md)
-* [Serialization](general/serialization.md)
 * [Manifest](general/manifest.md)
-* [Java Beans](general/java-beans.md)
 * [Immutable and Unmodifiable](general/immutable-and-unmodifiable.md)
 * [Regular Expression](general/regular-expression.md)
 
-## Errors and Exceptions
+## Beans and Objects <a id="beans"></a>
 
-* [General](errors-and-exceptions/general.md)
-* [Catching Exceptions](errors-and-exceptions/catching-exceptions.md)
-* [Checked Exceptions](errors-and-exceptions/checked-exceptions.md)
+* [Primitives](beans/primitives.md)
+* [Variables](beans/variables.md)
+* [Generics](beans/generics.md)
+* [Java Beans](beans/java-beans.md)
+* [Serialization](beans/serialization.md)
+* [Hashcode, equals and toString](beans/hashcode-equals-and-tostring.md)
 
-## Collections
+## Documentation
 
+* [Comments](documentation/comments.md)
+* [Javadoc](documentation/javadoc.md)
+
+## Collections and Data Structures <a id="collections"></a>
+
+* [Arrays](collections/arrays.md)
 * [Iterable](collections/iterable.md)
 * [Collection](collections/collection.md)
 * [List](collections/list.md)
@@ -37,6 +38,12 @@
 * [Queue](collections/queue.md)
 * [Stack](collections/stack.md)
 * [Map](collections/map.md)
+
+## Errors and Exceptions
+
+* [General](errors-and-exceptions/general.md)
+* [Catching Exceptions](errors-and-exceptions/catching-exceptions.md)
+* [Checked Exceptions](errors-and-exceptions/checked-exceptions.md)
 
 ## Functional
 
@@ -60,10 +67,6 @@
 * [Locale](internationalization/locale.md)
 * [Resource Bundle](internationalization/resource-bundle.md)
 * [Formatting](internationalization/formatting.md)
-
-## Beans
-
-* [Hashcode, equals and toString](beans/hashcode-equals-and-tostring.md)
 
 ## Java Bean Validation
 
