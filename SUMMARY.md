@@ -39,6 +39,10 @@
 * [Stack](collections/stack.md)
 * [Map](collections/map.md)
 
+## Introspection
+
+* [Properties](introspection/acquiring-methods.md)
+
 ## Errors and Exceptions
 
 * [General](errors-and-exceptions/general.md)
