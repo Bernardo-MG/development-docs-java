@@ -18,10 +18,18 @@
 
 * [Primitives](beans/primitives.md)
 * [Variables](beans/variables.md)
-* [Generics](beans/generics.md)
 * [Java Beans](beans/java-beans.md)
 * [Serialization](beans/serialization.md)
 * [Hashcode, equals and toString](beans/hashcode-equals-and-tostring.md)
+
+## Generics
+
+* [General](generics/general.md)
+* [Generic Methods](generics/generic-methods.md)
+* [Concrete Generics](generics/concrete-generics.md)
+* [Wildcards](generics/wildcards.md)
+* [Type Erasure](generics/type-erasure.md)
+* [Type Parameter Naming Conventions](generics/type-parameter-naming-conventions.md)
 
 ## Documentation
 
