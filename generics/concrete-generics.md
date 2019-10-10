@@ -1,4 +1,4 @@
-# Concrete Generics
+# Bounded Parameters
 
 It is possible specifying more exactly the type used:
 
@@ -8,7 +8,7 @@ public class WithGeneric<T>;
 public class WithGeneric<T extends Number>;
 ```
 
-It is even possible to define multiple inheritances:
+## Multiple Bounds
 
 ```java
 public class WithGeneric<T extends A & B & C>;

@@ -6,7 +6,7 @@ If needed a wildcard generic type, which accepts any type, can be used:
 List<?> list;
 ```
 
-### Inheritance
+## Bounds
 
 This is an upper bounds wildcard:
 
