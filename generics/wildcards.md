@@ -3,7 +3,13 @@
 If needed a wildcard generic type, which accepts any type, can be used:
 
 ```java
-List<?> list;
+public void function(List<?> list);
+```
+
+```java
+function(new ArrayList<String>());
+
+function(new ArrayList<Double>());
 ```
 
 ## Bounds

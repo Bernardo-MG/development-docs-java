@@ -11,10 +11,13 @@ This example will force the input and output to be the same type.
 ```java
 ModelObject input;
 ModelObject output:
+AnotherObject invalid;
 
 input = new ModelObject();
-output= new ModelObject();
 
 output = process(input);
+
+// Compilation error
+invalid = process(input);
 ```
 

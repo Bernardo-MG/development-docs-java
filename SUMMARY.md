@@ -26,7 +26,7 @@
 
 * [General](generics/general.md)
 * [Generic Methods](generics/generic-methods.md)
-* [Bounded Parameters](generics/concrete-generics.md)
+* [Bound Parameters](generics/concrete-generics.md)
 * [Wildcards](generics/wildcards.md)
 * [Type Erasure](generics/type-erasure.md)
 * [Type Parameter Naming Conventions](generics/type-parameter-naming-conventions.md)
