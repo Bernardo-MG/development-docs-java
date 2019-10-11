@@ -9,3 +9,7 @@ Its most useful aspects are:
 * Several specialized additional frameworks
 * Easing the creation of web projects
 
+## More Information
+
+* [Spring Guides](https://spring.io/guides)
+
