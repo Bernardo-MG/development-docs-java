@@ -4,8 +4,7 @@ Spring will need a bit of additional configuration to allow injecting dependenci
 
 ```java
 @RunWith(JUnitPlatform.class)
-@ExtendWith(SpringExtension.class)
-@TestExecutionListeners({ DependencyInjectionTestExecutionListener.class })
+@SpringJUnitConfig
 @WebAppConfiguration
 @ContextConfiguration(locations = { "classpath:context/config.xml" })
 @TestPropertySource({ "classpath:config/config.properties" })
