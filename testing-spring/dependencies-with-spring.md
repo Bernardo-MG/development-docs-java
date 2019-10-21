@@ -1,4 +1,4 @@
-# Dependencies with Spring
+# Setting Up Junit
 
 Spring will need a bit of additional configuration to allow injecting dependencies.
 

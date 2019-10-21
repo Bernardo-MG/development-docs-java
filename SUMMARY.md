@@ -158,7 +158,6 @@
   * [Disable Tests](testing/junit/disable-tests.md)
   * [Test Lifecycle](testing/junit/test-lifecycle.md)
   * [Testing Exceptions](testing/junit/testing-exceptions.md)
-  * [Dependencies with Spring](testing/junit/dependencies-with-spring.md)
 * [Mockito](testing/mockito/README.md)
   * [Mocking](testing/mockito/mocking.md)
   * [Verify Calls](testing/mockito/verify-calls.md)
@@ -246,10 +245,6 @@
 * [Model Attributes](spring-mvc/model-attributes.md)
 * [View Resolvers](spring-mvc/view-resolvers.md)
 * [Resolving Sort and Pageable Arguments](spring-mvc/loading-pageable-automatically.md)
-* [Testing](spring-mvc/testing/README.md)
-  * [Request Path Testing](spring-mvc/testing/request-path-testing.md)
-  * [Testing JSON](spring-mvc/testing/testing-json.md)
-  * [Argument Resolvers](spring-mvc/testing/argument-resolvers.md)
 
 ## Spring WS
 
@@ -272,8 +267,13 @@
 
 ## Testing Spring
 
+* [Setting Up Junit](testing-spring/dependencies-with-spring.md)
 * [Conditional Tests](testing-spring/conditional-tests.md)
 * [Initializing DB](testing-spring/initializing-db.md)
+* [Spring MVC](testing-spring/testing/README.md)
+  * [Request Path Testing](testing-spring/testing/request-path-testing.md)
+  * [Testing JSON](testing-spring/testing/testing-json.md)
+  * [Argument Resolvers](testing-spring/testing/argument-resolvers.md)
 
 ## JMeter
 
