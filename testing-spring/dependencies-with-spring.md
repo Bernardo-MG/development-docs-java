@@ -5,21 +5,13 @@ Spring will need a bit of additional configuration to allow injecting dependenci
 ```java
 @RunWith(JUnitPlatform.class)
 @SpringJUnitConfig
-@WebAppConfiguration
 @ContextConfiguration(locations = { "classpath:context/config.xml" })
 @TestPropertySource({ "classpath:config/config.properties" })
 public class TestSuite {
 
-    @Autowired
-    private Service testedService;
-
     @Test
-    public final void alwaysTrue() {
-        final Boolean success;
-
-        success = testedService.call();
-
-        Assert.assertTrue(success);
+    public final void someTest() {
+        // Testing code inside
     }
 
 }
