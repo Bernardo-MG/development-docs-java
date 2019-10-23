@@ -8,11 +8,6 @@ For example it may be used to wrap components:
 public final class AdditionalSecurityBeanPostProcessor implements BeanPostProcessor
 {
 
-   public AdditionalSecurityBeanPostProcessor()
-   {
-      super();
-   }
-
    @Override
    public final Object postProcessBeforeInitialization(final Object bean, final String beanName) throws BeansException
    {

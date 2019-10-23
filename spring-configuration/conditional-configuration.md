@@ -1,6 +1,8 @@
 # Conditional Configuration
 
-### Conditional by Property
+## Conditional by Property
+
+If the property matches the defined value then the configuration is applied.
 
 ```java
 @Configuration
@@ -8,22 +10,24 @@
 public class ConfigClass
 ```
 
-### Conditional by Condition Class
+| Argument | Usage |
+| :--- | :--- |
+| havingValue | The value required to activate the condition |
+| matchIfMissing | If true, the condition activates when the property is not defined |
+
+## Conditional by Condition Class
+
+When the condition returns true then the configuration is applied.
 
 ```java
 @Configuration
-@Conditional(ConfigurationCondition .class)
+@Conditional(ConfigurationCondition.class)
 public class ConfigClass
 ```
 
 ```java
 public class ConfigurationCondition implements Condition
 {
-
-   public ConfigurationCondition()
-   {
-      super();
-   }
 
    @Override
    public boolean matches(final ConditionContext context, final AnnotatedTypeMetadata metadata)
@@ -34,16 +38,11 @@ public class ConfigurationCondition implements Condition
 }
 ```
 
-### Conditional by Bean
+## Conditional by Bean
 
-Only if the bean exists:
+The bean is loaded only if the referenced bean has been loaded:
 
 ```java
-@Bean
-public MainBean mainBean(){
-   return new MainBean();
-}
-
 @Bean
 @ConditionalOnBean(name="mainBean")
 public Component component(){
@@ -51,7 +50,7 @@ public Component component(){
 }
 ```
 
-Only if the bean does not exist:
+The bean is loaded only if the referenced bean has NOT been loaded:
 
 ```java
 @Bean
@@ -61,9 +60,9 @@ public Placeholder placeholder(){
 }
 ```
 
-### Conditional by Class
+## Conditional by Class
 
-Only if the class is in the classpath:
+The bean is loaded only if the class is in the classpath:
 
 ```java
 @Bean
@@ -73,7 +72,7 @@ public Driver driver(){
 }
 ```
 
-Only if the class is missing from the classpath:
+The bean is loaded only if the class is missing from the classpath:
 
 ```java
 @Bean

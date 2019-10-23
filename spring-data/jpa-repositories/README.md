@@ -12,7 +12,7 @@ public interface EntityRepository extends JpaRepository<Entity, EntityKey> {
 
 In this case the interface used is an extension specific for JPA.
 
-## Bae Repositories
+## Base Repositories
 
 ```java
 @NoRepositoryBean

@@ -202,14 +202,16 @@
 
 ## Spring Dependence Injection
 
-* [Injections](spring-dependence-injection/injections.md)
+* [Injections](spring-dependence-injection/injections/README.md)
+  * [Asking for a Specific Bean](spring-dependence-injection/injections/asking-for-a-specific-bean.md)
 * [Injecting Values](spring-dependence-injection/injecting-values.md)
 * [Injecting Multiple Instances](spring-dependence-injection/injecting-multiple-instances.md)
 * [Interdependence](spring-dependence-injection/interdependence.md)
 
 ## Spring Beans
 
-* [Initialization and Destruction](spring-beans/initialization-and-destruction.md)
+* [Initialization](spring-beans/initialization.md)
+* [Destruction](spring-beans/initialization-and-destruction.md)
 * [Extending Initialization](spring-beans/extending-initialization.md)
 
 ## Spring Data

@@ -20,10 +20,6 @@ public class ExampleService implements Service {
    @Value("${properties.valueName}")
    private Integer value;
 
-   public ExampleService() {
-      super();
-   }
-
 }
 ```
 
@@ -34,10 +30,6 @@ public class ExampleService implements Service {
 
    @Value("#{@valuesCollection}")
    private Iterable<Integer> values;
-
-   public ExampleService() {
-      super();
-   }
 
 }
 ```

@@ -1,36 +1,6 @@
-# Initialization and Destruction
+# Destruction
 
-## Initialization
-
-With annotations:
-
-```java
-public class Bean {
-
-   @PostConstruct
-   public void initialize() {
-      // Code
-   }
-
-}
-```
-
-With the interface:
-
-```java
-public class Bean implements InitializingBean {
-
-   @Override
-   public void afterPropertiesSet() throws Exception {
-      // Code
-   }
-
-}
-```
-
-## Destruction
-
-With annotations:
+## Annotations
 
 ```java
 public class Bean {
@@ -43,7 +13,7 @@ public class Bean {
 }
 ```
 
-With the interface:
+## Interface
 
 ```java
 public class Bean implements DisposableBean {
