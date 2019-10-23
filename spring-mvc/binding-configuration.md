@@ -1,7 +1,5 @@
 # Binding Configuration
 
-
-
 Controllers can define object binding:
 
 ```java

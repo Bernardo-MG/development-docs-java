@@ -1,8 +1,6 @@
 # Conditional Tests
 
 ```java
-@EnabledIf(
-        expression = "#{true}",
-        reason = "Supported environment", loadContext = true)
+@EnabledIf(expression = "#{true}", reason = "Supported environment", loadContext = true)
 ```
 
