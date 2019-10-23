@@ -1,18 +1,4 @@
-# Logging
-
-## Queries
-
-```markup
-<Logger name="org.hibernate.SQL" level="debug" additivity="false">
-   <AppenderRef ref="console" />
-</Logger>
-
-<Logger name="org.hibernate.type.descriptor.sql" level="trace" additivity="false">
-   <AppenderRef ref="console" />
-</Logger>
-```
-
-## Statistics
+# Statistics
 
 Statistics can be activated with  the following property:
 
@@ -47,17 +33,5 @@ INFO  | o.h.e.i.StatisticalLoggingSessionEventListener     258  | Session Metric
     100573600 nanoseconds spent executing 1 flushes (flushing a total of 15 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-```
-
-## Sessions
-
-```markup
-<Logger name="org.hibernate.internal.SessionFactoryImpl" level="debug" additivity="false">
-   <AppenderRef ref="console" />
-</Logger>
-
-<Logger name="org.hibernate.internal.SessionImpl" level="trace" additivity="false">
-   <AppenderRef ref="console" />
-</Logger>
 ```
 

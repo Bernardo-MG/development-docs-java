@@ -184,7 +184,10 @@
 
 ## HIBERNATE
 
-* [Logging](hibernate/logging.md)
+* [Logging](hibernate/logging/README.md)
+  * [Sessions](hibernate/logging/sessions.md)
+  * [Statistics](hibernate/logging/statistics.md)
+  * [Queries](hibernate/logging/queries.md)
 * [More Information](hibernate/more-information.md)
 
 ## Spring
