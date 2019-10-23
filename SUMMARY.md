@@ -268,6 +268,7 @@
 
 ## Spring AOP
 
+* [More Information](spring-aop/more-information.md)
 * [Configuration](spring-aop/configuration.md)
 * [Logging Aspect Example](spring-aop/logging-aspect-example.md)
 
