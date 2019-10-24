@@ -4,6 +4,8 @@ description: Spring Expression Language
 
 # SpEL
 
+## Operations
+
 ### Acquiring a Bean
 
 Using the name of a value or a constant:
@@ -57,4 +59,8 @@ ${properties.textValue:}
 ```text
 #{bean?.field}
 ```
+
+## More Information
+
+* [Spring Expression Language](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions)
 
