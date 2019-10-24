@@ -161,6 +161,7 @@
 * [Mockito](testing/mockito/README.md)
   * [Mocking](testing/mockito/mocking.md)
   * [Verify Calls](testing/mockito/verify-calls.md)
+  * [Throw Exceptions](testing/mockito/throw-exceptions.md)
   * [Capture Arguments](testing/mockito/capture-arguments.md)
 
 ## LOGGING <a id="logging-in-java"></a>
