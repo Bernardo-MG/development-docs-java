@@ -233,7 +233,6 @@
   * [Annotation](spring-data/transactional/annotation.md)
   * [Transaction Aspect](spring-data/transactional/transaction-aspect.md)
   * [Transactional Test](spring-data/transactional/transactional-test.md)
-* [Untitled](spring-data/untitled.md)
 
 ## Spring MVC
 

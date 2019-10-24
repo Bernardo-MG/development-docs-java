@@ -2,7 +2,7 @@
 
 Spring Boot supports mapping properties into an object, to have better control over existing configuration.
 
-### Automatic Mapping
+## Automatic Mapping
 
 In this case it will map all the values starting with "db." into any matching field.
 
@@ -23,7 +23,7 @@ public class DatabaseProperties
 }
 ```
 
-### Value Injection
+## Value Injection
 
 In some cases it won't me possible, mostly when the properties structure isn't clean, and then the values will have to be injected.
 
@@ -54,7 +54,7 @@ public class DatabaseProperties
 }
 ```
 
-### Registering and Using
+## Registering and Using
 
 These files can be registered into any configuration class.
 

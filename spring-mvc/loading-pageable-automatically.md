@@ -15,17 +15,10 @@ public final Iterable<ModelObject>
 First define the resolvers:
 
 ```markup
-<bean id="sortResolver" class="${resolver.sort.class}" />
-<bean id="pagingResolver" class="${resolver.pageable.class}">
+<bean id="sortResolver" class="resolver.sort.class=org.springframework.data.web.SortHandlerMethodArgumentResolver" />
+<bean id="pagingResolver" class="resolver.pageable.class=org.springframework.data.web.PageableHandlerMethodArgumentResolver">
    <constructor-arg ref="sortResolver" />
 </bean>
-```
-
-Using these properties:
-
-```text
-resolver.sort.class=org.springframework.data.web.SortHandlerMethodArgumentResolver
-resolver.pageable.class=org.springframework.data.web.PageableHandlerMethodArgumentResolver
 ```
 
 Then register them:
