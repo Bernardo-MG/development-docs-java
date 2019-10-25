@@ -17,5 +17,3 @@ public class RepositoryScanningConfig
 <context:component-scan base-package="com.package.repository" />
 ```
 
-
-
