@@ -211,6 +211,7 @@
 * [Injecting Values](spring-dependence-injection/injecting-values.md)
 * [Injecting Multiple Instances](spring-dependence-injection/injecting-multiple-instances.md)
 * [Interdependence](spring-dependence-injection/interdependence.md)
+* [Component Scanning](spring-dependence-injection/component-scanning.md)
 
 ## Spring Beans
 
