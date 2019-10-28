@@ -1,21 +1,41 @@
 # Test Lifecycle
 
-## JUnit 5
+Methods can be annotated so they will be called at specific points on the test lifecycle.
 
-Special annotations will call method at specific points on the test lifecycle.
+## JUnit 4
+
+* AfterClass
+* After
+* BeforeClass
+* Before
+
+### Initializing Data
+
+```java
+public class TestSuite {
+
+    @Before
+    public final void setUpData() {
+        // Loads tests data
+    }
+
+}
+```
+
+## JUnit 5
 
 * AfterAll
 * AfterEach
 * BeforeAll
 * BeforeEach
 
-This can be used for example to initialize data for the test:
+### Initializing Data
 
 ```java
 @RunWith(JUnitPlatform.class)
 public class TestSuite {
 
-    @BeforeAll
+    @BeforeEach
     public final void setUpData() {
         // Loads tests data
     }
