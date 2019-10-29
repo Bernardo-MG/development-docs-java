@@ -158,6 +158,7 @@
   * [Disable Tests](testing/junit/disable-tests.md)
   * [Test Lifecycle](testing/junit/test-lifecycle.md)
   * [Testing Exceptions](testing/junit/testing-exceptions.md)
+  * [Display Name](testing/junit/display-name.md)
 * [Mockito](testing/mockito/README.md)
   * [Mocking](testing/mockito/mocking.md)
   * [Verify Calls](testing/mockito/verify-calls.md)
