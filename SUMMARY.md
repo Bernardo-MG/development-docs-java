@@ -253,6 +253,7 @@
 * [Model Attributes](spring-mvc/model-attributes.md)
 * [View Resolvers](spring-mvc/view-resolvers.md)
 * [Resolving Sort and Pageable Arguments](spring-mvc/loading-pageable-automatically.md)
+* [Logging](spring-mvc/logging.md)
 
 ## Spring WS
 
