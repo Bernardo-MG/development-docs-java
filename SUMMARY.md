@@ -176,6 +176,12 @@
 * [JPA](logging-in-java/jpa.md)
 * [Hikari](logging-in-java/hikari.md)
 
+## KeyStore
+
+* [Types](keystore/types.md)
+* [Generation](keystore/generation.md)
+* [Certificates](keystore/certificates.md)
+
 ## Jackson
 
 * [General](jackson/general.md)
