@@ -86,6 +86,16 @@
 * [Annotations](java-bean-validation/annotations.md)
 * [Validator](java-bean-validation/validator.md)
 
+## Utilities Classes
+
+* [Libraries](utilities-classes/libraries.md)
+* [Constants Class](utilities-classes/constants-class.md)
+* [Apache Commons](utilities-classes/apache-commons/README.md)
+  * [Strings](utilities-classes/apache-commons/strings.md)
+  * [Dates](utilities-classes/apache-commons/dates.md)
+* [Guava](utilities-classes/guava/README.md)
+  * [Preconditions](utilities-classes/guava/preconditions.md)
+
 ## JPA
 
 * [General](jpa/general.md)
@@ -101,6 +111,56 @@
   * [Replace Version](ant/examples/replace-version.md)
   * [Merge Files](ant/examples/merge-files.md)
   * [Execute Command](ant/examples/execute-command.md)
+
+## LOGGING <a id="logging-in-java"></a>
+
+* [SL4J](logging-in-java/sl4j.md)
+* [Log4j](logging-in-java/log4j/README.md)
+  * [Logging Levels](logging-in-java/log4j/logging-levels.md)
+  * [Formatted Messages](logging-in-java/log4j/formatted-messages.md)
+  * [Templated Messages](logging-in-java/log4j/templated-messages.md)
+  * [Mapped Diagnostic Context](logging-in-java/log4j/mapped-diagnostic-context.md)
+* [JPA](logging-in-java/jpa.md)
+* [Hikari](logging-in-java/hikari.md)
+
+## Testing
+
+* [Libraries](testing/libraries.md)
+* [Junit](testing/junit/README.md)
+  * [Setting Up Tests](testing/junit/setting-up-tests.md)
+  * [Disable Tests](testing/junit/disable-tests.md)
+  * [Test Lifecycle](testing/junit/test-lifecycle.md)
+  * [Testing Exceptions](testing/junit/testing-exceptions.md)
+  * [Display Name](testing/junit/display-name.md)
+* [Mockito](testing/mockito/README.md)
+  * [Mocking](testing/mockito/mocking.md)
+  * [Verify Calls](testing/mockito/verify-calls.md)
+  * [Throw Exceptions](testing/mockito/throw-exceptions.md)
+  * [Capture Arguments](testing/mockito/capture-arguments.md)
+
+## KeyStore
+
+* [Types](keystore/types.md)
+* [Generation](keystore/generation.md)
+* [Certificates](keystore/certificates.md)
+* [Keys](keystore/keys.md)
+* [Reading](keystore/listing.md)
+
+## HIBERNATE
+
+* [Logging](hibernate/logging/README.md)
+  * [Sessions](hibernate/logging/sessions.md)
+  * [Statistics](hibernate/logging/statistics.md)
+  * [Queries](hibernate/logging/queries.md)
+* [More Information](hibernate/more-information.md)
+
+## Jackson
+
+* [General](jackson/general.md)
+* [Deserialize](jackson/deserialize.md)
+* [Object Hierarchy](jackson/object-hierarchy.md)
+* [Ignoring Data](jackson/ignoring-data.md)
+* [Mixin](jackson/mixin.md)
 
 ## Maven
 
@@ -139,64 +199,6 @@
 * [Frontend with Maven](maven/frontend-with-maven.md)
 * [Continuous Integration](maven/continuous-integration.md)
 * [Ant](maven/ant.md)
-
-## Utilities Classes
-
-* [Libraries](utilities-classes/libraries.md)
-* [Constants Class](utilities-classes/constants-class.md)
-* [Apache Commons](utilities-classes/apache-commons/README.md)
-  * [Strings](utilities-classes/apache-commons/strings.md)
-  * [Dates](utilities-classes/apache-commons/dates.md)
-* [Guava](utilities-classes/guava/README.md)
-  * [Preconditions](utilities-classes/guava/preconditions.md)
-
-## Testing
-
-* [Libraries](testing/libraries.md)
-* [Junit](testing/junit/README.md)
-  * [Setting Up Tests](testing/junit/setting-up-tests.md)
-  * [Disable Tests](testing/junit/disable-tests.md)
-  * [Test Lifecycle](testing/junit/test-lifecycle.md)
-  * [Testing Exceptions](testing/junit/testing-exceptions.md)
-  * [Display Name](testing/junit/display-name.md)
-* [Mockito](testing/mockito/README.md)
-  * [Mocking](testing/mockito/mocking.md)
-  * [Verify Calls](testing/mockito/verify-calls.md)
-  * [Throw Exceptions](testing/mockito/throw-exceptions.md)
-  * [Capture Arguments](testing/mockito/capture-arguments.md)
-
-## LOGGING <a id="logging-in-java"></a>
-
-* [SL4J](logging-in-java/sl4j.md)
-* [Log4j](logging-in-java/log4j/README.md)
-  * [Logging Levels](logging-in-java/log4j/logging-levels.md)
-  * [Formatted Messages](logging-in-java/log4j/formatted-messages.md)
-  * [Templated Messages](logging-in-java/log4j/templated-messages.md)
-  * [Mapped Diagnostic Context](logging-in-java/log4j/mapped-diagnostic-context.md)
-* [JPA](logging-in-java/jpa.md)
-* [Hikari](logging-in-java/hikari.md)
-
-## KeyStore
-
-* [Types](keystore/types.md)
-* [Generation](keystore/generation.md)
-* [Certificates](keystore/certificates.md)
-
-## Jackson
-
-* [General](jackson/general.md)
-* [Deserialize](jackson/deserialize.md)
-* [Object Hierarchy](jackson/object-hierarchy.md)
-* [Ignoring Data](jackson/ignoring-data.md)
-* [Mixin](jackson/mixin.md)
-
-## HIBERNATE
-
-* [Logging](hibernate/logging/README.md)
-  * [Sessions](hibernate/logging/sessions.md)
-  * [Statistics](hibernate/logging/statistics.md)
-  * [Queries](hibernate/logging/queries.md)
-* [More Information](hibernate/more-information.md)
 
 ## Spring
 
