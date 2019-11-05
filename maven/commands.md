@@ -1,6 +1,6 @@
 # Commands
 
-## Running Tests
+## Testing
 
 ```text
 mvn clean verify
@@ -14,7 +14,7 @@ mvn clean verify -fae
 
 Tests on modules depending on the failed module won't run, but all the other modules will have their tests executed.
 
-## Checking for Updates
+## Checking for Newer Versions
 
 To check if there are newer versions for the dependencies use the following command:
 

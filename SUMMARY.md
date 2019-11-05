@@ -164,11 +164,11 @@
 
 ## Maven
 
+* [Commands](maven/commands.md)
 * [Maven Lifecycle](maven/maven-lifecycle.md)
 * [Dependency Management](maven/dependency-management/README.md)
   * [Artifact Repositories](maven/dependency-management/artifact-repositories.md)
 * [Building the Project](maven/building-the-project.md)
-* [Commands](maven/commands.md)
 * [Maven Archetype](maven/maven-archetype/README.md)
   * [Testing Archetypes](maven/maven-archetype/testing-archetypes.md)
 * [Site](maven/site/README.md)
