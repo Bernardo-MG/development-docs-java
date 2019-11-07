@@ -6,7 +6,7 @@ The MDC allows using custom variables in the log:
 %-5p | %X{principal}
 ```
 
-In this case the "principal" variable is loaded through the MDC, as the "x" command tells.
+In this case the "principal" variable is loaded through the MDC, as the "X" command tells.
 
 This requires that same variable to be registered:
 
