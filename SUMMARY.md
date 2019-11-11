@@ -292,6 +292,7 @@
   * [Request Path Testing](testing-spring/testing/request-path-testing.md)
   * [Testing JSON](testing-spring/testing/testing-json.md)
   * [Argument Resolvers](testing-spring/testing/argument-resolvers.md)
+  * [Response Status](testing-spring/testing/response-status.md)
 
 ## JMeter
 
