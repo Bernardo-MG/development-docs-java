@@ -283,6 +283,10 @@
 * [Configuration](spring-aop/configuration.md)
 * [Logging Aspect Example](spring-aop/logging-aspect-example.md)
 
+## Spring Integration
+
+* [Gateway](spring-integration/gateway.md)
+
 ## Testing Spring
 
 * [Setting Up Junit](testing-spring/dependencies-with-spring.md)
