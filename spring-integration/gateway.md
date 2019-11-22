@@ -5,7 +5,7 @@ The entry to an integration flow.
 ## Mapping a Service
 
 ```java
-public interface EmployeeService {
+public interface EmployeeFacadeService {
 
    public Employee updateEmployee(final Employee employee);
 
@@ -14,7 +14,7 @@ public interface EmployeeService {
 
 ```markup
 <si:gateway id="employeeFlow"
-  service-interface="com.service.EmployeeService "
+  service-interface="com.service.EmployeeFacadeService"
   default-reply-channel="employeeOutputChannel">
   <si:method name="updateEmployee" request-channel="updateEmployeeChannel"/>
 </si:gateway>

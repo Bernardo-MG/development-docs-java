@@ -286,6 +286,8 @@
 ## Spring Integration
 
 * [Gateway](spring-integration/gateway.md)
+* [Routing](spring-integration/routing.md)
+* [Services](spring-integration/services.md)
 
 ## Testing Spring
 
