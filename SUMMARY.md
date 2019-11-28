@@ -160,6 +160,8 @@
 * [Deserialize](jackson/deserialize.md)
 * [Object Hierarchy](jackson/object-hierarchy.md)
 * [Ignoring Data](jackson/ignoring-data.md)
+* [Enums](jackson/enums.md)
+* [Change Field Name](jackson/change-field-name.md)
 * [Mixin](jackson/mixin.md)
 
 ## Maven
