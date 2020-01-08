@@ -158,6 +158,7 @@
 
 * [General](jackson/general.md)
 * [Deserialize](jackson/deserialize.md)
+* [Dates](jackson/dates.md)
 * [Object Hierarchy](jackson/object-hierarchy.md)
 * [Ignoring Data](jackson/ignoring-data.md)
 * [Enums](jackson/enums.md)
