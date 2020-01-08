@@ -17,7 +17,7 @@ public enum ValueEnum {
    {
       final ValueEnum parsed;
 
-	  // Transform to enum
+	    // Transform from JSON to enum
 
       return parsed;
    }

@@ -157,11 +157,11 @@
 ## Jackson
 
 * [General](jackson/general.md)
-* [Deserialize](jackson/deserialize.md)
-* [Dates](jackson/dates.md)
+* [Deserialize](jackson/deserialize/README.md)
+  * [Dates](jackson/deserialize/dates.md)
+  * [Enums](jackson/deserialize/enums.md)
 * [Object Hierarchy](jackson/object-hierarchy.md)
 * [Ignoring Data](jackson/ignoring-data.md)
-* [Enums](jackson/enums.md)
 * [Change Field Name](jackson/change-field-name.md)
 * [Mixin](jackson/mixin.md)
 
