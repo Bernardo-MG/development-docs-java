@@ -18,12 +18,5 @@ Mockito.verify(service, Mockito.atLeastOnce()).method(ArgumentMatchers.any());
 Mockito.verify(service, Mockito.never()).method(ArgumentMatchers.any());
 ```
 
-## Called with a specific value
-
-```java
-Mockito.verify(response, Mockito.atLeastOnce()).setContentType(
-   ArgumentMatchers.same(MediaType.APPLICATION_PDF_VALUE));
-```
-
 
 
