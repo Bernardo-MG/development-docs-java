@@ -44,7 +44,7 @@ public final void testWithException() {
 public final void testWithException() {
    final ExceptionWithCode ex;
 
-   ex = Assertions.assertThrows(Exception.class, service::throwsException);
+   ex = Assertions.assertThrows(ExceptionWithCode .class, service::throwsException);
    
    Assertions.assertEquals(1, ex.getCode());
 }
