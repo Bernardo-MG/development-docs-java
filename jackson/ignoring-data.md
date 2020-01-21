@@ -9,3 +9,5 @@ Allows ignoring properties, avoiding possible problems when deserializing.
 public class Employee
 ```
 
+
+
