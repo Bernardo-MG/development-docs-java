@@ -2,7 +2,7 @@
 
 ## equals
 
-JDK:
+### JDK
 
 ```java
 public final boolean equals(final Object obj) {
@@ -24,7 +24,7 @@ public final boolean equals(final Object obj) {
 }
 ```
 
-Apache Commons:
+### Apache Commons
 
 ```java
 public final boolean equals(final Object obj) {
@@ -34,7 +34,7 @@ public final boolean equals(final Object obj) {
 
 ## hashCode
 
-JDK:
+### JDK
 
 ```java
 public final int hashCode() {
@@ -42,7 +42,7 @@ public final int hashCode() {
 }
 ```
 
-Apache Commons:
+### Apache Commons
 
 ```java
 public final int hashCode() {
@@ -52,7 +52,7 @@ public final int hashCode() {
 
 ## toString
 
-Guava:
+### Guava
 
 ```java
 public final String toString() {
@@ -60,7 +60,7 @@ public final String toString() {
 }
 ```
 
-Apache Commons:
+### Apache Commons
 
 ```java
 public final String toString() {
