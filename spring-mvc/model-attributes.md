@@ -1,6 +1,6 @@
 # Model Attributes
 
-To load the initial values for a model attribute:
+## Initialize the DTO
 
 ```java
 @ModelAttribute(ExampleEntityViewConstants.BEAN_FORM)
@@ -9,7 +9,7 @@ public final ExampleEntityForm getEntityForm() {
 }
 ```
 
-This same annotation can be used to acquire the value:
+## Mapping a Form into the DTO
 
 ```java
 @PostMapping
