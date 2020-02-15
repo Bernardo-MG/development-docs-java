@@ -5,7 +5,7 @@
 ```java
 @ModelAttribute(ExampleEntityViewConstants.BEAN_FORM)
 public final ExampleEntityForm getEntityForm() {
-    return new ExampleEntityForm();
+    return new DefaultExampleEntityForm();
 }
 ```
 
@@ -13,8 +13,6 @@ public final ExampleEntityForm getEntityForm() {
 
 ```java
 @PostMapping
-public final String saveEntity(final ModelMap model,
-        @ModelAttribute(ExampleEntityViewConstants.BEAN_FORM) @Valid final ExampleEntityForm form,
-        final BindingResult bindingResult, final HttpSession session)
+public final String saveEntity(@ModelAttribute("formBean") final ExampleEntityForm form)
 ```
 
