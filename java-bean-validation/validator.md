@@ -7,12 +7,12 @@ Java offers a validator interface.
 ```java
 Collection<ConstraintViolation<String>> constraintViolations;
 
-constraintViolations = validator.validate(entidad);
+constraintViolations = validator.validate(object);
 ```
 
 Validating groups:
 
 ```java
-constraintViolations = validator.validate(entidad, UpdateValidationGroup.class, CreateValidation
+constraintViolations = validator.validate(object, UpdateValidationGroup.class, CreateValidation
 ```
 
