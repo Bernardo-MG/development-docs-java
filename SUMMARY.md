@@ -303,6 +303,7 @@
   * [Testing JSON](testing-spring/testing/testing-json.md)
   * [Argument Resolvers](testing-spring/testing/argument-resolvers.md)
   * [Response Status](testing-spring/testing/response-status.md)
+  * [Preparing a Controller for Testing Requests](testing-spring/testing/preparing-a-controller-for-testing-requests.md)
 
 ## JMeter
 
