@@ -22,6 +22,21 @@ Some annotations may be named the same, but they come from other packages.
 Most importantly, the assertions now come from a different class.
 
 ```java
+public class TestSuite {
+
+    @Test
+    public final void alwaysTrue() {
+        Assertions.assertTrue(true);
+    }
+
+}
+```
+
+### Compatibility with Junit 4
+
+With the JUnitPlatform runner allows old IDEs to interpret JUnit 5 tests.
+
+```java
 @RunWith(JUnitPlatform.class)
 public class TestSuite {
 

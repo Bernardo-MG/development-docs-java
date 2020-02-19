@@ -3,6 +3,7 @@
 ## Pagination
 
 ```java
-mockMvc.setCustomArgumentResolvers(new PageableHandlerMethodArgumentResolver())
+mockMvc = MockMvcBuilders.standaloneSetup(getController())
+        .setCustomArgumentResolvers(new PageableHandlerMethodArgumentResolver())
 ```
 
