@@ -3,7 +3,7 @@
 Using this:
 
 ```java
-result = getMockMvc().perform(get);
+result = mockMvc.perform(get);
 ```
 
 ## Print JSON
