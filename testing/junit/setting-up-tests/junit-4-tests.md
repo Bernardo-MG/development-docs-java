@@ -11,3 +11,13 @@ public class TestSuite {
 }
 ```
 
+## Integration Test With Spring
+
+```java
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = { TestConfig.class })
+@TestPropertySource({ "classpath:config/test.properties" })
+@DisplayName("An integration test suite")
+public class ITSuite
+```
+

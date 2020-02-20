@@ -35,7 +35,7 @@ public class TestSuite {
 }
 ```
 
-## Integration Test
+## Integration Test With Spring
 
 ```java
 @SpringJUnitConfig
