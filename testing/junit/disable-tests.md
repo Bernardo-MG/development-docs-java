@@ -6,25 +6,35 @@ JUnit will report all the ignored tests. If they are commented, or the test anno
 
 ## Ignoring a Single Test
 
-For Junit 4:
+### Junit 4
 
 ```java
-@Ignore
-@Test
-public final void testCase() {
+public final class TestSuite {
+
+   @Ignore
+   @Test
+   public final void testCase() {
+   }
+
 }
 ```
 
-For Junit 5:
+### Junit 5
 
 ```java
-@Disabled
-@Test
-public final void testCase() {
+public final class TestSuite {
+
+   @Disabled
+   @Test
+   public final void testCase() {
+   }
+
 }
 ```
 
 ## Ignoring a Full Suite
+
+Just apply the annotation to the class.
 
 ```java
 @Ignore

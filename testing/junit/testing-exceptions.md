@@ -30,6 +30,8 @@ public final void testWithException() {
 
 ## JUnit 5
 
+### Thrown Exception
+
 ```java
 @Test
 public final void testWithException() {
@@ -38,6 +40,8 @@ public final void testWithException() {
       service::throwsException);
 }
 ```
+
+### Exception Content
 
 ```java
 @Test
