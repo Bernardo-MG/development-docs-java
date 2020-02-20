@@ -127,7 +127,9 @@
 
 * [Libraries](testing/libraries.md)
 * [Junit](testing/junit/README.md)
-  * [Setting Up Tests](testing/junit/setting-up-tests.md)
+  * [Setting Up Tests](testing/junit/setting-up-tests/README.md)
+    * [JUnit 4 Tests](testing/junit/setting-up-tests/junit-4-tests.md)
+    * [JUnit 5 Tests](testing/junit/setting-up-tests/junit-5-tests.md)
   * [Disable Tests](testing/junit/disable-tests.md)
   * [Test Lifecycle](testing/junit/test-lifecycle.md)
   * [Testing Exceptions](testing/junit/testing-exceptions.md)
