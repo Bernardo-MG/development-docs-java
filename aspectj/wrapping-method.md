@@ -1,9 +1,16 @@
 # Wrapping Method
 
+Inside an aspect:
+
+```java
+@Aspect
+public class ServiceLogger
+```
+
 ## Before
 
 ```java
-@Before(value = "execution(* com.bernardomg.tabletop.palette..*Service*.*(..))",
+@Before(value = "execution(* com.bernardomg..*Service*.*(..))",
 		argNames = "joinPoint")
 public void beforeCall(final JoinPoint joinPoint) {
 	LOGGER.debug("Calling {} with arguments {}",
@@ -15,7 +22,7 @@ public void beforeCall(final JoinPoint joinPoint) {
 
 ```java
 @AfterReturning(
-		value = "execution(* com.bernardomg.tabletop.palette..*Service*.*(..))",
+		value = "execution(* com.bernardomg..*Service*.*(..))",
 		returning = "returnValue")
 public void afterCall(final JoinPoint joinPoint, final Object returnValue) {
 	LOGGER.debug("Called {} and returning {}",
