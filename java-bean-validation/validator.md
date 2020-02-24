@@ -1,6 +1,6 @@
 # Validator
 
-Java offers a validator interface as javax.validation.Validator.
+Java offers a validator interface.
 
 ## Usage
 
@@ -10,9 +10,9 @@ Collection<ConstraintViolation<String>> constraintViolations;
 constraintViolations = validator.validate(object);
 ```
 
-### Validating groups
+Validating groups:
 
 ```java
-constraintViolations = validator.validate(object, UpdateValidationGroup.class)
+constraintViolations = validator.validate(object, UpdateValidationGroup.class, CreateValidation
 ```
 
