@@ -18,7 +18,7 @@ public final boolean equals(final Object obj) {
       return false;
    }
 
-   final CompositeKey other = (CompositeKey) obj;
+   final Employee other = (Employee) obj;
    return Objects.equals(id, other.id)
          && Objects.equals(name, other.name);
 }
