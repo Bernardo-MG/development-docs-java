@@ -47,3 +47,15 @@ RETURN
    class.name AS class
 ```
 
+## Service Methods Nobody Calls
+
+```text
+MATCH
+   (service:Service)-[:DECLARES]->(method:Method)
+WHERE
+   NOT ()-[:INVOKES]->(method)
+RETURN
+   service,
+   method
+```
+
