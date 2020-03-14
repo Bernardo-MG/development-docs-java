@@ -305,6 +305,7 @@
 
 ## Testing Spring
 
+* [Test configuration](testing-spring/test-configuration.md)
 * [Setting Up Junit](testing-spring/dependencies-with-spring.md)
 * [Conditional Tests](testing-spring/conditional-tests.md)
 * [Initializing DB](testing-spring/initializing-db.md)
