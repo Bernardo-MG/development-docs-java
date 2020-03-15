@@ -289,7 +289,8 @@
 ## Spring Security
 
 * [Examples](spring-security/examples.md)
-* [Setting Up](spring-security/setting-up.md)
+* [Setting Up](spring-security/setting-up/README.md)
+  * [Method Security](spring-security/setting-up/method-security.md)
 
 ## Spring AOP
 

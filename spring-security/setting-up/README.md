@@ -12,17 +12,5 @@ This will take care of authenticating users.
 </authentication-manager>
 ```
 
-## Method Security
-
-### XML
-
-```markup
-<global-method-security pre-post-annotations="enabled" />
-```
-
-### Class
-
-```java
-@EnableGlobalMethodSecurity(prePostEnabled = true)
-```
+### 
 
