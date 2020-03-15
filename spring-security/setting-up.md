@@ -14,11 +14,13 @@ This will take care of authenticating users.
 
 ## Method Security
 
-To activate security annotations:
+### XML
 
 ```markup
 <global-method-security pre-post-annotations="enabled" />
 ```
+
+### Class
 
 ```java
 @EnableGlobalMethodSecurity(prePostEnabled = true)
