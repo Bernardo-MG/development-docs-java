@@ -36,3 +36,22 @@ RETURN
    m.name as method
 ```
 
+## Default fields
+
+```text
+MATCH
+   (class)-[:DECLARES]->(field:Field)
+WHERE
+   field.visibility = 'default'
+   AND (
+      field.synthetic = false
+      OR NOT EXISTS(field.synthetic)
+   )
+RETURN DISTINCT
+   class.name AS class,
+   field.name AS field
+ORDER BY
+   class,
+   field
+```
+
