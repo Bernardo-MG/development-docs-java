@@ -67,8 +67,10 @@ MATCH
    (method:Method)-[:ANNOTATED_BY]->(annotation:Annotation)-[:OF_TYPE]->(annotationType:Type)
 WHERE
    method.visibility IN ['private', 'protected']
+   AND NOT annotationType.fqn = 'java.lang.Deprecated'
 RETURN DISTINCT
    component.name AS component,
-   method.name AS method
+   method.name AS method,
+   annotationType.name AS annotation
 ```
 
