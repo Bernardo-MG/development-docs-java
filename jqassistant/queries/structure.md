@@ -59,3 +59,16 @@ RETURN
    method
 ```
 
+## Non-public methods with annotations
+
+```text
+MATCH
+   (component:Type)-[:DECLARES]->(method:Method),
+   (method:Method)-[:ANNOTATED_BY]->(annotation:Annotation)-[:OF_TYPE]->(annotationType:Type)
+WHERE
+   method.visibility IN ['private', 'protected']
+RETURN DISTINCT
+   component.name AS component,
+   method.name AS method
+```
+
