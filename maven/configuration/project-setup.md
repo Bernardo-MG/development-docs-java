@@ -14,7 +14,7 @@ Dependencies are defined in the pom.xml file. This contains dependencies and plu
 
 ## Tests
 
-Testing is done with [JUnit](https://junit.org/). Maven will take care of running both unit and integration tests.
+It is recommended using [JUnit](https://junit.org/). Maven will take care of running both unit and integration tests.
 
 ## Documentation
 
