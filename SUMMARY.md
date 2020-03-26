@@ -299,6 +299,10 @@
 * [Aspect](spring-aop/aspect.md)
 * [Logging Aspect Example](spring-aop/logging-aspect-example.md)
 
+## Spring Cache
+
+* [Configuration](spring-cache/configuration.md)
+
 ## Spring Integration
 
 * [Gateway](spring-integration/gateway.md)
