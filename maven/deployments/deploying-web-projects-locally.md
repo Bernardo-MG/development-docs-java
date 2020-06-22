@@ -14,7 +14,7 @@ This will be used to deploy the project into the [http://localhost:8080/webproje
 
 ### Jetty
 
-When using the [Jetty plugin](https://www.eclipse.org/jetty/documentation/9.4.x/jetty-maven-plugin.html) with Maven use this configuration:
+When using the [Jetty plugin](https://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html) with Maven use this configuration:
 
 ```markup
 <plugin>
@@ -33,6 +33,12 @@ When using the [Jetty plugin](https://www.eclipse.org/jetty/documentation/9.4.x/
 </plugin>
 ```
 
+Afterwards it can be run with:
+
+```bash
+mvn jetty:run
+```
+
 ### Tomcat
 
 When using the [Tomcat plugin](http://tomcat.apache.org/maven-plugin-2.0/tomcat7-maven-plugin/) with Maven use this configuration:
@@ -47,5 +53,11 @@ When using the [Tomcat plugin](http://tomcat.apache.org/maven-plugin-2.0/tomcat7
       <path>${server.path}</path>
    </configuration>
 </plugin>
+```
+
+Afterwards it can be run with:
+
+```markup
+mvn tomcat7:run-war
 ```
 
