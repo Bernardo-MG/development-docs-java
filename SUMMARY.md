@@ -212,6 +212,7 @@
   * [npm and Webpack](maven/frontend-with-maven/npm-and-webpack.md)
 * [Continuous Integration](maven/continuous-integration.md)
 * [Ant](maven/ant.md)
+* [Executable JAR](maven/executable-jar.md)
 
 ## Spring
 
