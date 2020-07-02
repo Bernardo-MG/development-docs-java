@@ -13,6 +13,7 @@
 * [Manifest](general/manifest.md)
 * [Immutable and Unmodifiable](general/immutable-and-unmodifiable.md)
 * [Regular Expression](general/regular-expression.md)
+* [Executable class](general/executable-class.md)
 
 ## Beans and Objects <a id="beans"></a>
 

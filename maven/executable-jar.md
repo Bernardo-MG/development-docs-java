@@ -66,3 +66,11 @@ In this example the Main executable class is located at org.company.Main.
 </build>
 ```
 
+## Building the Jar
+
+The project can be built normally. The resulting jar can be executed with Java:
+
+```markup
+java -jar project.jar
+```
+
