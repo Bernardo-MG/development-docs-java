@@ -68,7 +68,13 @@ In this example the Main executable class is located at org.company.Main.
 
 ## Building the Jar
 
-The project can be built normally. The resulting jar can be executed with Java:
+If it is set up correctly, the standard construction will generate an executable JAR:
+
+```markup
+mvn package
+```
+
+This can be run with Java:
 
 ```markup
 java -jar project.jar
