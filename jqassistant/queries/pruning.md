@@ -1,6 +1,6 @@
 # Pruning
 
-## Merge Duplicated Classes
+## Merge Duplicated Nodes
 
 ```text
 MATCH
