@@ -4,9 +4,11 @@
 
 ```text
 MATCH
-   (main:Artifact{name: 'parent-project'}),
+   (main:Artifact),
    (pom:Pom)-[:HAS_PARENT]->(main),
    (pom)-[:DESCRIBES]->(submodule:Artifact)
+WHERE
+   main.name = 'parent-project'
 RETURN DISTINCT
    main.name AS main,
    submodule.name AS submodule,
@@ -20,8 +22,10 @@ ORDER BY
 
 ```text
 MATCH
-   (project:Pom{artifactId: 'project-name'}),
+   (project:Pom),
    (project)-[:DECLARES_DEPENDENCY]->()-[:TO_ARTIFACT]->(dependency)
+WHERE
+   project.artifactId= 'project-name'
 RETURN DISTINCT
    project.name AS project,
    dependency.name AS dependency
@@ -34,10 +38,12 @@ ORDER BY
 
 ```text
 MATCH
-   (main:Artifact{name: 'parent-project'}),
+   (main:Artifact),
    (pom:Pom)-[:HAS_PARENT]->(main),
    (pom)-[:DESCRIBES]->(submodule:Artifact),
    (pom)-[:DECLARES_DEPENDENCY]->()-[:TO_ARTIFACT]->(dependency)
+WHERE
+   main.name = 'parent-project'
 RETURN DISTINCT
    submodule.name AS submodule,
    dependency.name AS dependency
@@ -55,7 +61,7 @@ MATCH
    (child)-[:DESCRIBES]->(directory:Artifact:Directory),
    (directory)-[:CONTAINS]->(class:Type)
 WHERE
-   main.name = 'parent-module-name'
+   main.name = 'project-name'
 RETURN DISTINCT
    class.name AS class
 ORDER BY
