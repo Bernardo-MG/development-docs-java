@@ -1,17 +1,49 @@
 # Maven
 
-## Number of internal module dependencies
+## Submodules
 
 ```text
 MATCH
-   (main:Maven:Main)-[r:DEPENDS_ON]->(dependency:Maven:Main)
-RETURN
-   main.name AS module,
-   COUNT(r) AS dependenciesCount,
-   COLLECT(dependency.name) AS dependencies
+   (main:Artifact{name: 'parent-project'}),
+   (pom:Pom)-[:HAS_PARENT]->(main),
+   (pom)-[:DESCRIBES]->(submodule:Artifact)
+RETURN DISTINCT
+   main.name AS main,
+   submodule.name AS submodule,
+   pom.name AS name
 ORDER BY
-   dependenciesCount DESC,
-   module
+   main,
+   submodule
+```
+
+## Declared dependencies
+
+```text
+MATCH
+   (project:Pom{artifactId: 'project-name'}),
+   (project)-[:DECLARES_DEPENDENCY]->()-[:TO_ARTIFACT]->(dependency)
+RETURN DISTINCT
+   project.name AS project,
+   dependency.name AS dependency
+ORDER BY
+   project,
+   dependency
+```
+
+## Declared dependencies on all submodules
+
+```text
+MATCH
+   (main:Artifact{name: 'parent-project'}),
+   (pom:Pom)-[:HAS_PARENT]->(main),
+   (pom)-[:DESCRIBES]->(submodule:Artifact),
+   (pom)-[:DECLARES_DEPENDENCY]->()-[:TO_ARTIFACT]->(dependency)
+RETURN DISTINCT
+   submodule.name AS submodule,
+   dependency.name AS dependency
+ORDER BY
+   submodule,
+   dependency
 ```
 
 ## All  the Classes in a Module
@@ -24,9 +56,23 @@ MATCH
    (directory)-[:CONTAINS]->(class:Type)
 WHERE
    main.name = 'parent-module-name'
-RETURN
+RETURN DISTINCT
    class.name AS class
 ORDER BY
    class
+```
+
+## Number of internal module dependencies
+
+```text
+MATCH
+   (main:Maven:Main)-[r:DEPENDS_ON]->(dependency:Maven:Main)
+RETURN
+   main.name AS module,
+   COUNT(r) AS dependenciesCount,
+   COLLECT(dependency.name) AS dependencies
+ORDER BY
+   dependenciesCount DESC,
+   module
 ```
 
