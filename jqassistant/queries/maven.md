@@ -58,10 +58,9 @@ ORDER BY
 MATCH
    (pom:Pom),
    (jar:Jar)-[:CONTAINS]->(pom),
-   (jar:Jar)-[:CONTAINS]->(class:Java)
+   (jar:Jar)-[:CONTAINS]->(class:Java:Type)
 WHERE
    pom.artifactId = 'project-name'
-   AND ((class:Class) OR (class:Interface))
 RETURN DISTINCT
    class.name AS class
 ORDER BY
@@ -76,10 +75,9 @@ MATCH
    (pom:Pom)-[:HAS_PARENT]->(main),
    (pom)-[:DESCRIBES]->(submodule:Artifact),
    (jar:Jar)-[:CONTAINS]->(pom),
-   (jar:Jar)-[:CONTAINS]->(class:Java)
+   (jar:Jar)-[:CONTAINS]->(class:Java:Type)
 WHERE
    main.name = 'parent-project'
-   AND ((class:Class) OR (class:Interface))
 RETURN DISTINCT
    pom.artifactId AS project,
    class.name AS class
