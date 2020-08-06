@@ -81,8 +81,10 @@ WHERE
    main.name = 'parent-project'
    AND ((class:Class) OR (class:Interface))
 RETURN DISTINCT
+   pom.artifactId AS project,
    class.name AS class
 ORDER BY
+   project,
    class
 ```
 
