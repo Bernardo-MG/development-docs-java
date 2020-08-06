@@ -52,16 +52,34 @@ ORDER BY
    dependency
 ```
 
-## All  the Classes in a Module
+## Classes in a project
+
+```text
+MATCH
+   (pom:Pom),
+   (jar:Jar)-[:CONTAINS]->(pom),
+   (jar:Jar)-[:CONTAINS]->(class:Java)
+WHERE
+   pom.artifactId = 'project-name'
+   AND ((class:Class) OR (class:Interface))
+RETURN DISTINCT
+   class.name AS class
+ORDER BY
+   class
+```
+
+## Classes in all submodules
 
 ```text
 MATCH
    (main:Artifact),
-   (child)-[:HAS_PARENT]->(main),
-   (child)-[:DESCRIBES]->(directory:Artifact:Directory),
-   (directory)-[:CONTAINS]->(class:Type)
+   (pom:Pom)-[:HAS_PARENT]->(main),
+   (pom)-[:DESCRIBES]->(submodule:Artifact),
+   (jar:Jar)-[:CONTAINS]->(pom),
+   (jar:Jar)-[:CONTAINS]->(class:Java)
 WHERE
-   main.name = 'project-name'
+   main.name = 'parent-project'
+   AND ((class:Class) OR (class:Interface))
 RETURN DISTINCT
    class.name AS class
 ORDER BY

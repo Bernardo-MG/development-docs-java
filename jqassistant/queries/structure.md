@@ -4,8 +4,8 @@
 
 ```text
 MATCH
-   (component:Type {name: 'ClassName'}),
-   (extension:Type)-[:EXTENDS|IMPLEMENTS*0..]->(component)
+   (class{name: 'ClassName'}),
+   (extension:Type)-[:EXTENDS|IMPLEMENTS*0..]->(class)
 RETURN
    extension
 ```
