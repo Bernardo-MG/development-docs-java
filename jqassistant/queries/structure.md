@@ -4,8 +4,10 @@
 
 ```text
 MATCH
-   (class{name: 'ClassName'}),
+   (class),
    (extension:Type)-[:EXTENDS|IMPLEMENTS*0..]->(class)
+WHERE
+   class.name = 'ClassName'
 RETURN
    extension
 ```
@@ -14,10 +16,12 @@ RETURN
 
 ```text
 MATCH
-   (component:Type {name: 'CrudService'}),
-   (component)-[:EXTENDS|IMPLEMENTS*0..]->()-[:DECLARES]->(inheritedMethod:Method)
+   (class),
+   (class)-[:EXTENDS|IMPLEMENTS*0..]->()-[:DECLARES]->(inheritedMethod:Method)
+WHERE
+   class.name = 'ClassName'
 RETURN
-   component,
+   class,
    inheritedMethod
 ```
 
