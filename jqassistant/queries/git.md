@@ -8,6 +8,6 @@ MATCH
    (change)-[]->(file:File)
 RETURN DISTINCT
    file.fileName AS file,
-   count(change)
+   count(change) AS changes
 ```
 
