@@ -1,17 +1,13 @@
 # Tags
 
-## Deprecated Classes in a Maven Project
+## Deprecated Classes
 
 ```text
 MATCH
-   (pom:Pom),
-   (jar:Jar)-[:CONTAINS]->(pom),
-   (jar:Jar)-[:CONTAINS]->(class:Java:Type),
    (class)-[:ANNOTATED_BY]->(annotation),
    (annotation)-[:OF_TYPE]->(annotationType)
 WHERE
-   pom.artifactId = 'project-name'
-   AND annotationType.fqn = 'java.lang.Deprecated'
+   annotationType.fqn = 'java.lang.Deprecated'
 RETURN DISTINCT
    class
 ```
