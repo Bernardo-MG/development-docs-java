@@ -341,6 +341,7 @@
   * [Git](jqassistant/maven-plugin/git.md)
   * [Maven Dependencies](jqassistant/maven-plugin/maven-dependencies.md)
 * [Queries](jqassistant/queries/README.md)
+  * [git](jqassistant/queries/git.md)
   * [Tags](jqassistant/queries/tags.md)
   * [File Structure](jqassistant/queries/file-structure.md)
   * [Structure](jqassistant/queries/structure.md)
