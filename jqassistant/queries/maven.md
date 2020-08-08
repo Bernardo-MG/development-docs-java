@@ -24,31 +24,11 @@ ORDER BY
 MATCH
    (project:Pom),
    (project)-[:DECLARES_DEPENDENCY]->()-[:TO_ARTIFACT]->(dependency)
-WHERE
-   project.artifactId= 'project-name'
 RETURN DISTINCT
    project.name AS project,
    dependency.name AS dependency
 ORDER BY
    project,
-   dependency
-```
-
-## Declared dependencies on all submodules
-
-```text
-MATCH
-   (main:Artifact),
-   (pom:Pom)-[:HAS_PARENT]->(main),
-   (pom)-[:DESCRIBES]->(submodule:Artifact),
-   (pom)-[:DECLARES_DEPENDENCY]->()-[:TO_ARTIFACT]->(dependency)
-WHERE
-   main.name = 'parent-project'
-RETURN DISTINCT
-   submodule.name AS submodule,
-   dependency.name AS dependency
-ORDER BY
-   submodule,
    dependency
 ```
 
