@@ -33,6 +33,7 @@ RETURN DISTINCT
    commit.message AS message,
    change.modificationKind AS modificationKind,
    file.fileName AS file,
+   file.type AS fileType,
    class.name AS class,
    package.fileName AS package
 ```
