@@ -18,7 +18,8 @@ MATCH
    (commit:Git:Commit),
    (commit)-[:CONTAINS_CHANGE]->(change:Git:Change),
    (author:Git:Author)-[:COMMITTED]->(commit),
-   (change)-[]->(file:File),
+   (change)-[]->(file:File)
+OPTIONAL MATCH
    (class)-[:HAS_SOURCE]->(file:Git:File),
    (package:Package)-[:CONTAINS]->(class)
 RETURN DISTINCT
