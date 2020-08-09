@@ -18,7 +18,9 @@ MATCH
    (commit:Git:Commit),
    (commit)-[:CONTAINS_CHANGE]->(change:Git:Change),
    (author:Git:Author)-[:COMMITTED]->(commit),
-   (change)-[]->(file:File)
+   (change)-[]->(file:File),
+   (class)-[:HAS_SOURCE]->(file:Git:File),
+   (package:Package)-[:CONTAINS]->(class)
 RETURN DISTINCT
    commit.sha AS sha,
    commit.date AS date,
@@ -29,6 +31,8 @@ RETURN DISTINCT
    commit.committer AS commiter,
    commit.message AS message,
    change.modificationKind AS modificationKind,
-   file.fileName AS file
+   file.fileName AS file,
+   class.name AS class,
+   package.fileName AS package
 ```
 
