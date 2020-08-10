@@ -25,7 +25,7 @@ RETURN
    inheritedMethod AS method
 ```
 
-## Methods in a class
+## Methods in classes
 
 ```text
 MATCH
