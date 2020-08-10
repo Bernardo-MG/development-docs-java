@@ -21,8 +21,26 @@ MATCH
 WHERE
    class.name = 'ClassName'
 RETURN
+   class.name AS class,
+   inheritedMethod AS method
+```
+
+## Methods in a class
+
+```text
+MATCH
+   (class),
+   (class)-[:DECLARES]->(method:Method)
+RETURN DISTINCT
+   class.name AS class,
+   method.name AS method,
+   method.firstLineNumber AS firstLine,
+   method.lastLineNumber AS lastLine,
+   method.effectiveLineCount AS lines,
+   method.cyclomaticComplexity AS cyclomaticComplexity
+ORDER BY
    class,
-   inheritedMethod
+   method
 ```
 
 ## Methods annotated with PreAuthorize and the permission used
