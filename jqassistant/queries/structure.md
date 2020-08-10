@@ -29,9 +29,11 @@ RETURN
 
 ```text
 MATCH
-   (class),
-   (class)-[:DECLARES]->(method:Method)
+   (class:Class),
+   (class)-[:DECLARES]->(method:Method),
+   (package:Package)-[:CONTAINS]->(class)
 RETURN DISTINCT
+   package.fileName AS package,
    class.name AS class,
    method.name AS method,
    method.firstLineNumber AS firstLine,
@@ -39,6 +41,7 @@ RETURN DISTINCT
    method.effectiveLineCount AS lines,
    method.cyclomaticComplexity AS cyclomaticComplexity
 ORDER BY
+   package,
    class,
    method
 ```
