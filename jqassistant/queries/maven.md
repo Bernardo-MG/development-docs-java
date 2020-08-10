@@ -26,7 +26,12 @@ MATCH
    (project)-[:DECLARES_DEPENDENCY]->()-[:TO_ARTIFACT]->(dependency)
 RETURN DISTINCT
    project.name AS project,
-   dependency.name AS dependency
+   dependency.name AS dependency,
+   dependency.type AS type,
+   dependency.fileName AS filename,
+   dependency.fqn AS fqn,
+   dependency.group AS group,
+   dependency.version AS version
 ORDER BY
    project,
    dependency
