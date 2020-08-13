@@ -61,15 +61,15 @@ RETURN
    extract(p in apoc.text.regexGroups(annotationValue.value, "\\('([a-zA-Z]*)', '[crud]'\\)") | p[1]) as permission
 ```
 
-## Service Methods Nobody Calls
+##  Methods Nobody Calls
 
 ```text
 MATCH
-   (service:Service)-[:DECLARES]->(method:Method)
+   (class:Type)-[:DECLARES]->(method:Method)
 WHERE
    NOT ()-[:INVOKES]->(method)
 RETURN
-   service,
+   class,
    method
 ```
 
