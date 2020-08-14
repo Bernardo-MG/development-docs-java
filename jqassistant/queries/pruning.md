@@ -17,6 +17,21 @@ RETURN
    node
 ```
 
+## Merge Duplicated Classes
+
+```text
+MATCH
+   (left:Type),(right:Type)
+WHERE
+   left.fqn = right.fqn and id(left) < id(right)
+WITH
+   [left,right] as nodes
+CALL
+   apoc.refactor.mergeNodes(nodes) YIELD node
+RETURN
+   node
+```
+
 ## Merge Duplicated Methods
 
 ```text
