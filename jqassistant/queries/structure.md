@@ -25,21 +25,30 @@ RETURN
    inheritedMethod AS method
 ```
 
-## Methods in classes
+## Classes and methods data
 
 ```text
 MATCH
-   (class:Class),
+   (class:Type),
    (class)-[:DECLARES]->(method:Method),
    (package:Package)-[:CONTAINS]->(class)
 RETURN DISTINCT
    package.fileName AS package,
    class.name AS class,
+   class.fileName AS fileName,
+   class.fqn AS fullyQualifiedName,
+   class.sourceFileName AS sourceFileName,
+   class.javaVersion AS javaVersion,
+   class.md5 AS md5,
    method.name AS method,
+   method.signature AS methodSignature,
    method.firstLineNumber AS firstLine,
    method.lastLineNumber AS lastLine,
    method.effectiveLineCount AS lines,
-   method.cyclomaticComplexity AS cyclomaticComplexity
+   method.cyclomaticComplexity AS cyclomaticComplexity,
+   class.valid AS validClass,
+   class.visibility AS classVisibility,
+   method.visibility AS methodVisibility
 ORDER BY
    package,
    class,
