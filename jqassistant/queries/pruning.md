@@ -21,7 +21,8 @@ RETURN
 
 ```text
 MATCH
-   (left:Type),(right:Type)
+   (left:Type),
+   (right:Type)
 WHERE
    left.fqn = right.fqn and id(left) < id(right)
 WITH
