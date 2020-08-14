@@ -24,7 +24,8 @@ MATCH
    (left:Type),
    (right:Type)
 WHERE
-   left.fqn = right.fqn and id(left) < id(right)
+   left.fqn = right.fqn
+   AND id(left) < id(right)
 WITH
    [left,right] as nodes
 CALL
