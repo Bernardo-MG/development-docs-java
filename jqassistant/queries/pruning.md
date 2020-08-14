@@ -69,3 +69,21 @@ RETURN
    rel
 ```
 
+## Delete Duplicated Relationships
+
+```text
+MATCH
+   (left:Type)-[r]->(right:Type)
+WITH
+   left,
+   right,
+   type(r) as type,
+   collect(r) as rels
+WHERE
+   size(rels) > 1
+UNWIND
+   tail(rels) as rel
+DELETE
+   rel
+```
+
