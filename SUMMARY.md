@@ -349,6 +349,7 @@
   * [Maven](jqassistant/queries/maven.md)
   * [Controller](jqassistant/queries/controller.md)
   * [Detecting Problems](jqassistant/queries/detecting-problems.md)
+  * [Persistence](jqassistant/queries/persistence.md)
 * [Concepts](jqassistant/concepts.md)
 * [Constraints](jqassistant/constraints.md)
 * [Groups](jqassistant/groups.md)
