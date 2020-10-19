@@ -10,5 +10,11 @@ public loadFile(final ResourceLoader resourceLoader) {
 }
 ```
 
+## Resource Utils
+
+```java
+ResourceUtils.getFile("classpath:folder/file.txt");
+```
+
 
 
