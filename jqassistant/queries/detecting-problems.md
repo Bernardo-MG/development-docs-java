@@ -55,3 +55,16 @@ ORDER BY
    field
 ```
 
+## Methods Not Used
+
+```text
+MATCH
+   (service)-[:DECLARES]->(method:Method)
+WHERE
+   method.name <> 'null'
+   AND NOT ()-[:INVOKES]->(method)
+RETURN DISTINCT 
+   service.name AS service,
+   method.name AS method
+```
+
