@@ -22,7 +22,7 @@ WHERE
    class.name = 'ClassName'
 RETURN
    class.name AS class,
-   inheritedMethod AS method
+   inheritedMethod.name AS method
 ```
 
 ## Classes and methods data
