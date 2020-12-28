@@ -108,6 +108,14 @@
 * [JPQL](jpa/jpql.md)
 * [Criteria API](jpa/criteria-api.md)
 
+## HIBERNATE
+
+* [Logging](hibernate/logging/README.md)
+  * [Sessions](hibernate/logging/sessions.md)
+  * [Statistics](hibernate/logging/statistics.md)
+  * [Queries](hibernate/logging/queries.md)
+* [More Information](hibernate/more-information.md)
+
 ## Ant
 
 * [Scripts](ant/scripts.md)
@@ -151,14 +159,6 @@
 * [Certificates](keystore/certificates.md)
 * [Keys](keystore/keys.md)
 * [Reading](keystore/listing.md)
-
-## HIBERNATE
-
-* [Logging](hibernate/logging/README.md)
-  * [Sessions](hibernate/logging/sessions.md)
-  * [Statistics](hibernate/logging/statistics.md)
-  * [Queries](hibernate/logging/queries.md)
-* [More Information](hibernate/more-information.md)
 
 ## Jackson
 
