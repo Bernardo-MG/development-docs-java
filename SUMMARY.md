@@ -102,6 +102,7 @@
 ## JPA
 
 * [General](jpa/general.md)
+* [Logging](jpa/logging.md)
 * [JPA Entities](jpa/jpa-entities.md)
 * [Lifecycle](jpa/lifecycle.md)
 * [JPQL](jpa/jpql.md)
@@ -123,7 +124,6 @@
   * [Formatted Messages](logging-in-java/log4j/formatted-messages.md)
   * [Templated Messages](logging-in-java/log4j/templated-messages.md)
   * [Mapped Diagnostic Context](logging-in-java/log4j/mapped-diagnostic-context.md)
-* [JPA](logging-in-java/jpa.md)
 * [Hikari](logging-in-java/hikari.md)
 
 ## Testing

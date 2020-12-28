@@ -1,4 +1,6 @@
-# JPA
+# Logging
+
+## JDBC
 
 To log all from the JDBC:
 
