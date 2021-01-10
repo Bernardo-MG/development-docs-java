@@ -114,7 +114,6 @@
   * [Sessions](hibernate/logging/sessions.md)
   * [Statistics](hibernate/logging/statistics.md)
   * [Queries](hibernate/logging/queries.md)
-  * [Hibernate Properties](hibernate/logging/hibernate-properties.md)
 * [More Information](hibernate/more-information.md)
 
 ## Ant
