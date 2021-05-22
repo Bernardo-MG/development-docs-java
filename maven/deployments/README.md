@@ -6,3 +6,9 @@ Maven is prepared to deploy Java artifacts. The code artifacts are deployed to a
 mvn deploy
 ```
 
+## Additional Information
+
+* [How to Publish Artifacts on Maven Central](https://medium.com/geekculture/how-to-publish-artifacts-on-maven-central-24342fd286cd)
+
+
+
