@@ -68,3 +68,17 @@ RETURN DISTINCT
    method.name AS method
 ```
 
+## Components Not Used
+
+```text
+MATCH
+   (component:Java:Class)
+WHERE
+   NOT ()-[:DEPENDS_ON]-(:component)
+   AND NOT component:Test
+   AND NOT component:Controller
+   AND NOT component:Configuration
+RETURN DISTINCT 
+   component.name AS component
+```
+
