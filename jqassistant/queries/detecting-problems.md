@@ -74,7 +74,7 @@ RETURN DISTINCT
 MATCH
    (component:Java:Class)
 WHERE
-   NOT ()-[:DEPENDS_ON]->(:component)
+   NOT ()-[:DEPENDS_ON]->(component)
    AND NOT component:Test
    AND NOT component:Controller
    AND NOT component:Configuration
