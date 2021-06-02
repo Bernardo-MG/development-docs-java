@@ -72,7 +72,7 @@ RETURN DISTINCT
 
 ```text
 MATCH
-   (component:Java:Class)
+   (component:Java)
 WHERE
    NOT ()-[:DEPENDS_ON]->(component)
    AND NOT component:Test
