@@ -147,6 +147,8 @@
   * [Testing Exceptions](testing/junit/testing-exceptions.md)
   * [Display Name](testing/junit/display-name.md)
   * [Test Files](testing/junit/test-files.md)
+  * [Extensions](testing/junit/extensions/README.md)
+    * [Annotation Extension](testing/junit/extensions/annotation-extension.md)
 * [Mockito](testing/mockito/README.md)
   * [Mocking](testing/mockito/mocking.md)
   * [Verify Calls](testing/mockito/verify-calls.md)
