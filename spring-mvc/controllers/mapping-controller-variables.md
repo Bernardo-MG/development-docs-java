@@ -35,14 +35,14 @@ public class EmployeeController
 ### Path Variables to Arguments
 
 ```java
-@GetMapping(path="/{name}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+@GetMapping(path="/{name}", produces = MediaType.APPLICATION_JSON_VALUE)
 public final Employee getEmployee(@PathVariable final String name)
 ```
 
 ### Path Variables to Objects
 
 ```java
-@GetMapping(path="/{name}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+@GetMapping(path="/{name}", produces = MediaType.APPLICATION_JSON_VALUE)
 public final Employee getEmployee(final EmployeeName name)
 ```
 
