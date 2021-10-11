@@ -16,7 +16,7 @@
 * [Executable class](general/executable-class.md)
 * [Text Formatting](general/text-formatting.md)
 
-## Beans and Objects <a id="beans"></a>
+## Beans and Objects <a href="beans" id="beans"></a>
 
 * [Primitives](beans/primitives.md)
 * [Variables](beans/variables.md)
@@ -39,7 +39,7 @@
 * [Javadoc](documentation/javadoc/README.md)
   * [Code Example](documentation/javadoc/code-example.md)
 
-## Collections and Data Structures <a id="collections"></a>
+## Collections and Data Structures <a href="collections" id="collections"></a>
 
 * [Arrays](collections/arrays.md)
 * [Iterable](collections/iterable.md)
@@ -93,6 +93,7 @@
 
 * [Libraries](utilities-classes/libraries.md)
 * [Constants Class](utilities-classes/constants-class.md)
+* [Preconditions](utilities-classes/preconditions.md)
 * [Apache Commons](utilities-classes/apache-commons/README.md)
   * [Strings](utilities-classes/apache-commons/strings.md)
   * [Dates](utilities-classes/apache-commons/dates.md)
@@ -125,7 +126,7 @@
   * [Merge Files](ant/examples/merge-files.md)
   * [Execute Command](ant/examples/execute-command.md)
 
-## LOGGING <a id="logging-in-java"></a>
+## LOGGING <a href="logging-in-java" id="logging-in-java"></a>
 
 * [SL4J](logging-in-java/sl4j.md)
 * [Log4j](logging-in-java/log4j/README.md)
@@ -364,4 +365,3 @@
 ## AspectJ
 
 * [Wrapping Method](aspectj/wrapping-method.md)
-
