@@ -56,7 +56,7 @@ public final int hashCode() {
 
 ```java
 public final String toString() {
-   return MoreObjects.toStringHelper(this).add("id", id).add("name", name).toString();
+   return MoreObjects.toStringHelper(this)add("name", name).toString();
 }
 ```
 
@@ -68,3 +68,8 @@ public final String toString() {
 }
 ```
 
+```java
+public final String toString() {
+   return new ToStringBuilder(this).append("name", name).toString();
+}
+```
