@@ -57,7 +57,7 @@ public final int hashCode() {
 ```java
 public final String toString() {
     return new StringJoiner(" | ",
-            Employee.class.getSimpleName() + "[ ", " ]")
+            this.getClass().getSimpleName() + "[ ", " ]")
                     .add("name=" + name).toString();
 }
 ```
