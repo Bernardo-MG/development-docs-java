@@ -52,6 +52,16 @@ public final int hashCode() {
 
 ## toString
 
+### JDK
+
+```java
+public final String toString() {
+    return new StringJoiner(" | ",
+            Employee.class.getSimpleName() + "[ ", " ]")
+                    .add("name=" + name).toString();
+}
+```
+
 ### Guava
 
 ```java
